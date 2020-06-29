@@ -1,0 +1,72 @@
+@font-face {
+    width: 100%;
+    font-family: nfs;
+    src: url(./fonts/NFS.ttf);
+}
+
+@font-face {
+    width: 100%;
+    font-family: hl;
+    src: url(./fonts/HL.ttf);
+}
+
+body {
+    font-size: 1.5em;
+    background-color: #000;
+    color: #fff;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-block {
+    font-family: hl;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+
+.main-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-block button,
+.main-block input {
+    width: auto;
+    margin-top: 25px;
+    font-size: 1em;
+    border: 0;
+    outline: none;
+}
+
+.cardsArea {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: auto;
+    /* height: 20vh; */
+    background-color: yellow;
+    color: #000;
+    margin: 10px;
+    text-align: center;
+}
+
+.copyright-block {
+    font-family: nfs;
+    text-transform: uppercase;
+}
