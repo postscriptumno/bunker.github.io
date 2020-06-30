@@ -42,7 +42,7 @@ body {
 .main-block button,
 .main-block input {
     width: auto;
-    margin-top: 25px;
+/*     margin-top: 25px; */
     font-size: 1em;
     border: 0;
     outline: none;
